@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Personal Survey</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>
+          Personal Survey
+          <br><small>Just wanna get to know you...</small>
+        </h1>
+      </div>
+      <div class="well">
+        <form id="surveytotal">
+          <label>First, pick your favorite kind of cooking.</label>
+          <select class="form-control" id="cooking">
+            <option value="itlaian">Italian</option>
+            <option value="mexican">Mexican</option>
+            <option value="french">French</option>
+            <option value="japanese">Japanese</option>
+            <option value="northafrican">North African</option>
+            <option value="whatmamamade">What my mama used to make!</option>
+            <option value="other">Other</option>
+          </select>
+          <label><br>Next, pick what you like to do with your spare time.</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="videogames" checked>
+              Play video games
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="read">
+              Read
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="sports">
+              Play sports or exercise
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="cook">
+              Cook
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="media">
+                Watch TV/Movies/YouTube
+              </label>
+          </div>
+          <div class="form-group">
+            <label for="born"><br>Would you mind telling me when you were born?</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="color"><br>Finally, pick out your favorite color!</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
